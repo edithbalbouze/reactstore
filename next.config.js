@@ -1,7 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
-  swcMinify: true,
+  images: {
+    domains: ['api.lorem.space', 'placeimg.com', 'img-mobile.rubias19.com', 'rickandmortyapi.com', 'ar.celulares.com', 'images.philips.com'],
+  },
 }
-
-module.exports = nextConfig
