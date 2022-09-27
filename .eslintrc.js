@@ -17,4 +17,4 @@ module.exports = {
         'semi':['error', 'always'],           // para usar el punto y coma
         'prettier/prettier': 0,
     }
-}
+};
